@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.test.json",
+  "compilerOptions": {
+    "baseUrl": "tsconfig.test",
+    "paths": {
+      "solid-js/jsx-runtime": ["./src/jsx"],
+      "solid-js": ["./src"]
+    }
+  },
+  "include": ["./test",
+    "./web/test",
+    "./store/test"
+  ]
+}
